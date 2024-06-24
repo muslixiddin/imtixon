@@ -667,3 +667,306 @@ a {
     color: #56585E;
   }
 }
+.yangiliklar {
+  margin-top: 50px;
+}
+.yangiliklar .partniyorlar_top {
+  display: none;
+  align-items: center;
+  gap: 20px;
+}
+.yangiliklar .wrapper_yangiliklar-top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 150px;
+}
+.yangiliklar .yangiliklar_title {
+  font-size: 20px;
+  font-weight: 600;
+  width: 150px;
+}
+.yangiliklar .yangiliklar-desc {
+  font-size: 8px;
+  width: 102px;
+  color: #828388;
+}
+.yangiliklar .yangiliklar_cards {
+  padding-top: 72px;
+  gap: 12px;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+.yangiliklar .yangiliklar_card {
+  width: 432px;
+  height: 373px;
+}
+.yangiliklar .yangiliklar_card .yangiliklar_card-bottom {
+  display: flex;
+  gap: 52px;
+}
+.yangiliklar .yangiliklar_card .yangiliklar_card-bottom-desc {
+  padding-top: 20px;
+  font-size: 8px;
+  font-weight: 400;
+  font-family: Michroma;
+  color: rgba(46, 48, 56, 0.6);
+}
+.yangiliklar .yangiliklar_cards-bottom {
+  padding-top: 20px;
+  gap: 12px;
+  align-items: center;
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .yangiliklar {
+    margin-top: 50px;
+  }
+  .yangiliklar .partniyorlar_top {
+    display: none;
+    align-items: center;
+    gap: 20px;
+  }
+  .yangiliklar .wrapper_yangiliklar-top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 262px;
+  }
+  .yangiliklar .yangiliklar_title {
+    font-size: 30px;
+    font-weight: 600;
+    width: 277px;
+  }
+  .yangiliklar .yangiliklar-desc {
+    font-size: 16px;
+    width: 320px;
+    color: #828388;
+  }
+  .yangiliklar .yangiliklar_cards {
+    padding-top: 72px;
+    gap: 12px;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .yangiliklar .yangiliklar_card {
+    width: 432px;
+    height: 373px;
+  }
+  .yangiliklar .yangiliklar_card .yangiliklar_card-bottom {
+    display: flex;
+    gap: 52px;
+  }
+  .yangiliklar .yangiliklar_card .yangiliklar_card-bottom-desc {
+    padding-top: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Michroma;
+    color: rgba(46, 48, 56, 0.6);
+  }
+  .yangiliklar .yangiliklar_cards-bottom {
+    padding-top: 20px;
+    gap: 12px;
+    align-items: center;
+    display: none;
+  }
+}
+@media (min-width: 992px) {
+  .yangiliklar {
+    margin-top: 50px;
+  }
+  .yangiliklar .partniyorlar_top {
+    display: none;
+    align-items: center;
+    gap: 20px;
+  }
+  .yangiliklar .wrapper_yangiliklar-top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 262px;
+  }
+  .yangiliklar .yangiliklar_title {
+    font-size: 40px;
+    font-weight: 600;
+    width: 277px;
+  }
+  .yangiliklar .yangiliklar-desc {
+    font-size: 16px;
+    width: 320px;
+    color: #828388;
+  }
+  .yangiliklar .yangiliklar_cards {
+    padding-top: 72px;
+    gap: 12px;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .yangiliklar .yangiliklar_card {
+    width: 432px;
+    height: 373px;
+  }
+  .yangiliklar .yangiliklar_card .yangiliklar_card-bottom {
+    display: flex;
+    gap: 52px;
+  }
+  .yangiliklar .yangiliklar_card .yangiliklar_card-bottom-desc {
+    padding-top: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Michroma;
+    color: rgba(46, 48, 56, 0.6);
+  }
+  .yangiliklar .yangiliklar_cards-bottom {
+    padding-top: 20px;
+    gap: 12px;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+.partniyorlar {
+  margin-top: 50px;
+}
+.partniyorlar .partniyorlar_top {
+  display: none;
+  align-items: center;
+  gap: 20px;
+}
+.partniyorlar .wrapper_title {
+  display: flex;
+  justify-content: center;
+}
+.partniyorlar .wrapper_title .partniyorlar_title {
+  font-size: 20px;
+  font-weight: 600;
+  color: #2E3038;
+}
+.partniyorlar .wrapper_desc {
+  display: flex;
+  justify-content: end;
+}
+.partniyorlar .wrapper_desc .partniyorlar_desc {
+  font-size: 8px;
+  font-weight: 400;
+  width: 204px;
+}
+.partniyorlar .wrapper_cards-bottom {
+  padding-left: 50px;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.partniyorlar .wrapper_cards-bottom .card-partniyorlar {
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 258px;
+}
+.partniyorlar .wrapper_cards-bottom .card-partniyorlar .card_partniyorlar_text {
+  padding: 61px;
+}
+
+@media (min-width: 768px) {
+  .partniyorlar {
+    margin-top: 50px;
+  }
+  .partniyorlar .partniyorlar_top {
+    display: none;
+    align-items: center;
+    gap: 20px;
+  }
+  .partniyorlar .wrapper_title {
+    display: flex;
+    justify-content: center;
+  }
+  .partniyorlar .wrapper_title .partniyorlar_title {
+    font-size: 30px;
+    font-weight: 600;
+    color: #2E3038;
+  }
+  .partniyorlar .wrapper_desc {
+    display: flex;
+    justify-content: end;
+  }
+  .partniyorlar .wrapper_desc .partniyorlar_desc {
+    font-size: 16px;
+    font-weight: 400;
+    width: 306px;
+  }
+  .partniyorlar .wrapper_cards-bottom {
+    padding-left: 50px;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  .partniyorlar .wrapper_cards-bottom .card-partniyorlar {
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 258px;
+  }
+  .partniyorlar .wrapper_cards-bottom .card-partniyorlar .card_partniyorlar_text {
+    padding: 61px;
+  }
+}
+@media (min-width: 992px) {
+  .partniyorlar {
+    margin-top: 50px;
+  }
+  .partniyorlar .partniyorlar_top {
+    display: none;
+    align-items: center;
+    gap: 20px;
+  }
+  .partniyorlar .wrapper_title {
+    display: flex;
+    justify-content: center;
+  }
+  .partniyorlar .wrapper_title .partniyorlar_title {
+    font-size: 40px;
+    font-weight: 600;
+    color: #2E3038;
+  }
+  .partniyorlar .wrapper_desc {
+    display: flex;
+    justify-content: end;
+  }
+  .partniyorlar .wrapper_desc .partniyorlar_desc {
+    font-size: 16px;
+    font-weight: 400;
+    width: 408px;
+  }
+  .partniyorlar .wrapper_cards-bottom {
+    padding-top: 50px;
+    padding-left: 50px;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  .partniyorlar .wrapper_cards-bottom .card-partniyorlar {
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 258px;
+  }
+  .partniyorlar .wrapper_cards-bottom .card-partniyorlar .card_partniyorlar_text {
+    padding: 61px;
+  }
+}

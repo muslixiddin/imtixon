@@ -1,0 +1,180 @@
+.yangiliklar{
+    margin-top: 50px;
+    .partniyorlar_top{
+        display: none;
+        align-items: center;
+        gap: 20px;
+
+    }
+
+    .wrapper_yangiliklar-top{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 150px;
+    }
+    .yangiliklar_title{
+        font-size: 20px;
+        font-weight: 600;
+        width: 150px;
+    }
+    .yangiliklar-desc{
+        font-size: 8px;
+        width: 102px;
+        color: #828388;
+        
+    }
+
+    .yangiliklar_cards{
+        padding-top: 72px;
+        gap: 12px;
+        align-items: center;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .yangiliklar_card{
+        width: 432px;
+        height: 373px;
+        .yangiliklar_card-bottom{
+            display: flex;
+            gap: 52px;
+            
+        }
+        .yangiliklar_card-bottom-desc{
+            padding-top: 20px;
+            font-size: 8px;
+            font-weight: 400;
+            font-family: Michroma;
+            color: #2E303899;
+        }
+    }
+
+    .yangiliklar_cards-bottom{
+        padding-top: 20px;
+        gap: 12px;
+        align-items: center;
+        display: none;
+    }
+}
+
+@media (min-width:768px) {
+    .yangiliklar{
+        margin-top: 50px;
+        .partniyorlar_top{
+            display: none;
+            align-items: center;
+            gap: 20px;
+    
+        }
+    
+        .wrapper_yangiliklar-top{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 262px;
+        }
+        .yangiliklar_title{
+            font-size: 30px;
+            font-weight: 600;
+            width: 277px;
+        }
+        .yangiliklar-desc{
+            font-size: 16px;
+            width: 320px;
+            color: #828388;
+            
+        }
+    
+        .yangiliklar_cards{
+            padding-top: 72px;
+            gap: 12px;
+            align-items: center;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .yangiliklar_card{
+            width: 432px;
+            height: 373px;
+            .yangiliklar_card-bottom{
+                display: flex;
+                gap: 52px;
+                
+            }
+            .yangiliklar_card-bottom-desc{
+                padding-top: 20px;
+                font-size: 16px;
+                font-weight: 400;
+                font-family: Michroma;
+                color: #2E303899;
+            }
+        }
+    
+        .yangiliklar_cards-bottom{
+            padding-top: 20px;
+            gap: 12px;
+            align-items: center;
+            display: none;
+        }
+    }
+}
+@media (min-width:992px) {
+    .yangiliklar{
+        margin-top: 50px;
+        .partniyorlar_top{
+            display: none;
+            align-items: center;
+            gap: 20px;
+    
+        }
+    
+        .wrapper_yangiliklar-top{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 262px;
+        }
+        .yangiliklar_title{
+            font-size: 40px;
+            font-weight: 600;
+            width: 277px;
+        }
+        .yangiliklar-desc{
+            font-size: 16px;
+            width: 320px;
+            color: #828388;
+            
+        }
+    
+        .yangiliklar_cards{
+            padding-top: 72px;
+            gap: 12px;
+            align-items: center;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .yangiliklar_card{
+            width: 432px;
+            height: 373px;
+            .yangiliklar_card-bottom{
+                display: flex;
+                gap: 52px;
+                
+            }
+            .yangiliklar_card-bottom-desc{
+                padding-top: 20px;
+                font-size: 16px;
+                font-weight: 400;
+                font-family: Michroma;
+                color: #2E303899;
+            }
+        }
+    
+        .yangiliklar_cards-bottom{
+            padding-top: 20px;
+            gap: 12px;
+            align-items: center;
+            display: flex;
+            flex-wrap: wrap;
+        }
+    }
+}
