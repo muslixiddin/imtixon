@@ -1,0 +1,116 @@
+.about_hero {
+  .about_wrapper {
+    margin-top: 120px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 60px;
+    .about_title {
+      font-size: 20px;
+      font-weight: 600;
+      width: 223px;
+    }
+  }
+
+  .about_hero-bottom {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+
+    .about_hero-bottom-info {
+      font-size: 20px;
+      font-weight: 200;
+      color: #184afb;
+      font-family: Michroma;
+      padding-bottom: 30px;
+    }
+
+    .about_hero-bottom-desc {
+      font-size: 10px;
+      font-weight: 400;
+      color: #333333;
+    }
+
+  }
+}
+
+@media (min-width:768px) {
+    .about_hero {
+        .about_wrapper {
+          margin-top: 120px;
+          display: flex;
+          flex-direction: column;
+          align-items: start;
+          justify-content: center;
+          gap: 60px;
+          .about_title {
+            font-size: 30px;
+            font-weight: 600;
+            width: 290px;
+          }
+        }
+      
+        .about_hero-bottom {
+          display: flex;
+          align-items: center;
+          gap: 175px;
+      
+          .about_hero-bottom-info {
+            font-size: 30px;
+            font-weight: 200;
+            color: #184afb;
+            font-family: Michroma;
+            padding-bottom: 45px;
+          }
+      
+          .about_hero-bottom-desc {
+            font-size: 16px;
+            font-weight: 400;
+            color: #333333;
+          }
+      
+        }
+      }
+      
+}
+@media (min-width:768px) {
+    .about_hero {
+        .about_wrapper {
+          margin-top: 120px;
+          display: flex;
+          flex-direction: column;
+          align-items: start;
+          justify-content: center;
+          gap: 60px;
+          .about_title {
+            font-size: 40px;
+            font-weight: 600;
+            width: 493px;
+          }
+        }
+      
+        .about_hero-bottom {
+          display: flex;
+          align-items: center;
+          gap: 175px;
+      
+          .about_hero-bottom-info {
+            font-size: 40px;
+            font-weight: 400;
+            color: #184afb;
+            font-family: Michroma;
+            padding-bottom: 60px;
+          }
+      
+          .about_hero-bottom-desc {
+            font-size: 16px;
+            font-weight: 400;
+            color: #333333;
+          }
+      
+        }
+      }
+      
+}

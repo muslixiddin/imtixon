@@ -1,0 +1,27 @@
+.tadbitlar{
+    border-bottom: 1px solid #CCCCCC;
+    .tadbitlar_wrapper{
+        display: flex;align-items: center;justify-content: center;
+        .tadbitlar_title{
+            padding-top: 120px;
+            font-size: 16px;
+            font-weight: 600;
+
+        }
+
+        .tadbitlar-text{
+            font-size: 14px;
+            font-weight: 400;
+            font-family: Michroma;
+            width: 490px;
+            padding-bottom: 50px;
+        }
+    }
+
+    .tadbitlar-images{
+        padding-top: 40px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+    }
+}

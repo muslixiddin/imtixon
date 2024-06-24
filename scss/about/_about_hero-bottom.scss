@@ -1,0 +1,134 @@
+.about-hero_bottom {
+    padding-bottom: 40px;
+    border-bottom: 1px solid #184afb;
+  .about-hero_bottom-cards {
+    padding-top: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+
+    .card {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 488px;
+      height: 320px;
+      border: 1px solid #cccccc;
+      border-radius: 8px;
+    }
+}
+.about-hero_bottom-cards_bottom-desc {
+  font-size: 10px;
+  font-weight: 400;
+  width: 300px;
+}
+.about-hero_bottom-cards_bottom-btn {
+  font-size: 16px;
+  font-weight: 400;
+  color: #184afb;
+  padding: 5px 40px;
+  border-radius: 20px;
+  background-color: transparent;
+  border: 1px solid #cccccc;
+}
+.about-hero_bottom-cards_bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+}
+
+@media (min-width: 768px) {
+  .about-hero_bottom {
+
+    .about-hero_bottom-cards {
+       
+      padding-top: 120px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+
+      .card {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 488px;
+        height: 320px;
+        border: 1px solid #cccccc;
+        border-radius: 8px;
+      }
+     
+    }
+    .about-hero_bottom-cards_bottom-desc {
+        font-size: 16px;
+        font-weight: 400;
+        width: 400px;
+      }
+      .about-hero_bottom-cards_bottom-btn {
+        font-size: 16px;
+        font-weight: 400;
+        color: #184afb;
+        padding: 6px 50px;
+        border-radius: 20px;
+        background-color: transparent;
+        border: 1px solid #cccccc;
+      }
+      .about-hero_bottom-cards_bottom {
+        
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+  }
+}
+
+@media (min-width: 992px) {
+    .about-hero_bottom {
+  
+      .about-hero_bottom-cards {
+         
+        padding-top: 120px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 12px;
+  
+        .card {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 488px;
+          height: 320px;
+          border: 1px solid #cccccc;
+          border-radius: 8px;
+        }
+       
+      }
+      .about-hero_bottom-cards_bottom-desc {
+            
+        font-size: 16px;
+        font-weight: 400;
+        width: 519px;
+      }
+      .about-hero_bottom-cards_bottom-btn {
+        font-size: 16px;
+        font-weight: 400;
+        color: #184afb;
+        padding: 6px 50px;
+        border-radius: 20px;
+        background-color: transparent;
+        border: 1px solid #cccccc;
+      }
+      .about-hero_bottom-cards_bottom {        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+  }

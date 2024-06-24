@@ -1,0 +1,48 @@
+.bosqich-desc{
+    .bosqich-desc-wrapper{
+        padding-top: 120px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .bosqich-desc-card{
+            display: flex;
+            flex-direction: column;
+            
+        }
+        .bosqich-desc-card-title{
+            display: flex;
+            align-items: start;
+            flex-direction: column;
+            gap: 10px;
+            justify-content: start;
+        }
+        .bosqich-desc-card-title-wrapper{
+            display: flex;
+            
+            gap: 20px;
+
+        }
+        .bosqich-desc-card-title{
+            font-size: 24px;
+            font-weight: 500;
+            font-family: Michroma;
+        }
+    }
+
+    .bosqich-desc-card-desc{
+        width: 321px;
+        color: #3D5A5C;
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    .bosqich-desc-card-desc-wrapepr{
+        display: flex;
+        align-items: center;
+        gap: 700px;
+        border-bottom: 1px solid #CCCCCC;
+        padding-bottom: 40px;
+        padding-top: 40px;
+    }
+}

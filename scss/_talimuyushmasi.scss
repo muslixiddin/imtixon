@@ -1,0 +1,183 @@
+.talimuyushmasi {
+    .partniyorlar_top{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .talimuyushmasi_wrapper{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 150px;
+    }
+    .talimuyushmasi_title{
+        font-size: 20px;
+        font-weight: 600;
+        width: 200px;
+       
+    }
+    .talimuyushmasi_top-btn{
+        border: 1px solid #CCCCCC;
+        border-radius: 20px;
+        background-color: transparent;
+        display: none;
+        
+        .top-btn{
+            display: flex;
+            gap: 24px;
+            padding: 6px 32px;
+            color: #184AFB;
+        }
+    }
+
+    .talimuyushmasi_cards{
+        margin-top: 120px;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 93px;
+        .talimuyushmasi_card{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        .talimuyushmasi-card_info{
+            font-size: 8px;
+            font-weight: 400;
+            font-family: Michroma;
+            color: #56585E;
+            
+        }
+        .talimuyushmasi-card_desc{
+            font-size: 8px;
+            font-weight: 400;
+            font-family: Michroma;
+            color: #56585E;
+        }
+    }
+}
+
+@media (min-width:768px) {
+    .talimuyushmasi {
+        .partniyorlar_top{
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+    
+        .talimuyushmasi_wrapper{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 200px;
+        }
+        .talimuyushmasi_title{
+            font-size: 30px;
+            font-weight: 600;
+            width: 200px;
+           
+        }
+        .talimuyushmasi_top-btn{
+            border: 1px solid #CCCCCC;
+            border-radius: 20px;
+            background-color: transparent;
+            display: block;
+            
+            .top-btn{
+                display: flex;
+                gap: 24px;
+                padding: 6px 32px;
+                color: #184AFB;
+            }
+        }
+    
+        .talimuyushmasi_cards{
+            margin-top: 120px;
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 93px;
+            .talimuyushmasi_card{
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+            }
+            .talimuyushmasi-card_info{
+                font-size: 16px;
+                font-weight: 400;
+                font-family: Michroma;
+                color: #56585E;
+                
+            }
+            .talimuyushmasi-card_desc{
+                font-size: 16px;
+                font-weight: 400;
+                font-family: Michroma;
+                color: #56585E;
+            }
+        }
+    }
+}
+
+@media (min-width:768px) {
+    .talimuyushmasi {
+        .partniyorlar_top{
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+    
+        .talimuyushmasi_wrapper{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 365px;
+        }
+        .talimuyushmasi_title{
+            font-size: 40px;
+            font-weight: 600;
+            width: 432px;
+           
+        }
+        .talimuyushmasi_top-btn{
+            border: 1px solid #CCCCCC;
+            border-radius: 20px;
+            background-color: transparent;
+            display: block;
+            
+            .top-btn{
+                display: flex;
+                gap: 24px;
+                padding: 6px 32px;
+                color: #184AFB;
+            }
+        }
+    
+        .talimuyushmasi_cards{
+            margin-top: 120px;
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 93px;
+            .talimuyushmasi_card{
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+            }
+            .talimuyushmasi-card_info{
+                font-size: 16px;
+                font-weight: 400;
+                font-family: Michroma;
+                color: #56585E;
+                
+            }
+            .talimuyushmasi-card_desc{
+                font-size: 16px;
+                font-weight: 400;
+                font-family: Michroma;
+                color: #56585E;
+            }
+        }
+    }
+}

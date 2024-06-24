@@ -1,0 +1,118 @@
+.maqsadimiz-hero{
+    .hero-title-wrapper{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        .title-hero{
+            font-size: 20px;
+            font-weight: 600;
+            width: 246px;
+        }
+        .maqsadimi-hero-img{
+            width: 500px;
+        }
+
+        .maqsadimiz-hero-bottom{
+            display: flex;
+            align-items: center;
+            gap: 125px;
+            padding-top: 32px;
+            padding-bottom: 32px;
+            border-bottom: 1px solid #CCCCCC;
+        }
+        .hero-bottom-text{
+            font-size: 10px;
+            font-weight: 400;
+            width: 250px;
+        }
+        .hero-bottom-btn{
+            padding: 5px 40px;
+            border: 1px solid #CCCCCC;
+            border-radius: 20px;
+            background-color: transparent;
+            color: #184AFB;
+        }
+    }
+}
+
+@media (min-width:768px) {
+    .maqsadimiz-hero{
+        .hero-title-wrapper{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: center;
+            .title-hero{
+                font-size: 30px;
+                font-weight: 600;
+                width: 310px;
+            }
+            .maqsadimi-hero-img{
+                padding-top: 30px;
+                width: 700px;
+            }
+    
+            .maqsadimiz-hero-bottom{
+                display: flex;
+                align-items: center;
+                gap: 310px;
+                padding-top: 32px;
+                padding-bottom: 32px;
+                border-bottom: 1px solid #CCCCCC;
+            }
+            .hero-bottom-text{
+                font-size: 10px;
+                font-weight: 400;
+                width: 250px;
+            }
+            .hero-bottom-btn{
+                padding: 5px 40px;
+                border: 1px solid #CCCCCC;
+                border-radius: 20px;
+                background-color: transparent;
+                color: #184AFB;
+            }
+        }
+    }  
+}
+@media (min-width:992px) {
+    .maqsadimiz-hero{
+        .hero-title-wrapper{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: center;
+            .title-hero{
+                font-size: 40px;
+                font-weight: 600;
+                width: 493px;
+            }
+            .maqsadimi-hero-img{
+                padding-top: 60px;
+                width: 987px;
+            }
+    
+            .maqsadimiz-hero-bottom{
+                display: flex;
+                align-items: center;
+                gap: 590px;
+                padding-top: 32px;
+                padding-bottom: 32px;
+                border-bottom: 1px solid #CCCCCC;
+            }
+            .hero-bottom-text{
+                font-size: 10px;
+                font-weight: 400;
+                width: 250px;
+            }
+            .hero-bottom-btn{
+                padding: 5px 40px;
+                border: 1px solid #CCCCCC;
+                border-radius: 20px;
+                background-color: transparent;
+                color: #184AFB;
+            }
+        }
+    }  
+}

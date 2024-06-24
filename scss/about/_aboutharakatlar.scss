@@ -1,0 +1,71 @@
+.about-harakatlar{
+    border-bottom: 1px solid #CCCCCC;
+   padding-top: 80px;
+   .about_harakatlar-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    .about_harakatlar-title{
+        font-size: 26px;
+        font-weight: 600;
+        padding-bottom: 32px;
+    }
+
+    .about_harakatlar-wrapper-info{
+        padding: 20px;
+        font-size: 14px;
+        font-weight: 400;
+        width: 500px;
+    }
+   }
+}
+
+@media (min-width:768px) {
+    .about-harakatlar{
+        border-bottom: 1px solid #CCCCCC;
+       padding-top: 80px;
+       .about_harakatlar-wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: center;
+        .about_harakatlar-title{
+            font-size: 26px;
+            font-weight: 600;
+            padding-bottom: 32px;
+        }
+    
+        .about_harakatlar-wrapper-info{
+            padding: 20px;
+            font-size: 46px;
+            font-weight: 400;
+            width: 600px;
+        }
+       }
+    }
+}
+@media (min-width: 992px) {
+    .about-harakatlar{
+        border-bottom: 1px solid #CCCCCC;
+       padding-top: 80px;
+       .about_harakatlar-wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: center;
+        .about_harakatlar-title{
+            font-size: 32px;
+            font-weight: 600;
+            padding-bottom: 32px;
+        }
+    
+        .about_harakatlar-wrapper-info{
+            padding: 20px;
+            font-size: 16px;
+            font-weight: 400;
+            width: 782px;
+        }
+       }
+    }
+}

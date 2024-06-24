@@ -1,0 +1,82 @@
+.topfooter{
+    .topfooter_wrapper{
+        display: flex;
+        align-items: center;
+        margin-top: 50px;
+        gap: 12px;
+    }
+    .topfooter_card-right{
+        width: 987px;
+        height: 364px;
+        padding: 26px 20px;
+        background: #F5F5F5;
+        border-radius: 10px;
+        .footer-card-right-desc{
+            font-size: 40px;
+            font-weight: 600;
+            width: 723px;
+        }
+
+        .footer-card-right-bottom{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .footer-card-right-bottom-desc{
+            width: 396px;
+            color: #2E303899;
+        }
+        .footer-card-right-bottom-btn{
+            padding: 6px 59px;
+            border-radius: 20px;
+            border: none;
+            background: #184AFB;
+            color: #fff;
+        }
+    }
+    .topfooter_wrapper{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media (min-width:768px) {
+    .topfooter{
+        .topfooter_wrapper{
+            display: flex;
+            align-items: center;
+            margin-top: 50px;
+            gap: 12px;
+        }
+        .topfooter_card-right{
+            width: 987px;
+            height: 364px;
+            padding: 26px 40px;
+            background: #F5F5F5;
+            border-radius: 10px;
+            .footer-card-right-desc{
+                font-size: 40px;
+                font-weight: 600;
+                width: 723px;
+            }
+    
+            .footer-card-right-bottom{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+            }
+            .footer-card-right-bottom-desc{
+                width: 396px;
+                color: #2E303899;
+            }
+            .footer-card-right-bottom-btn{
+                padding: 6px 59px;
+                border-radius: 20px;
+                border: none;
+                background: #184AFB;
+                color: #fff;
+            }
+        }
+    }
+    
+}
