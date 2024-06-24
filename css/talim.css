@@ -383,12 +383,6 @@ a {
     padding: 5px 40px;
   }
 }
-.imkoniyatlarf .imkoniyatlarf_top {
-  padding-top: 20px;
-  display: none;
-  align-items: center;
-  gap: 20px;
-}
 .imkoniyatlarf .imkoniyatlarf-wrapper {
   padding-top: 25px;
   display: flex;
