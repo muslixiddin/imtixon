@@ -1,0 +1,120 @@
+.stratetiya{
+    .strategiya-wrapepr{
+        padding: 160px 0 40px;
+        display: flex;
+        align-items: start;
+        flex-direction: column;
+        justify-content: center;
+        .strategiya-title{
+            font-size: 16px;
+            font-weight: 600;
+        }
+        .strategiya-cards{
+            display: flex;
+            align-items: start;
+            flex-direction: column;
+            justify-content: center;
+            gap: 20px;
+        }
+        .strategiya-card{
+            display: flex;
+            
+            flex-direction: column;
+            border: 1px solid #CCCCCC;
+            width: 987px;
+            height: 320px;
+            border-radius: 12px;
+            padding: 40px;
+        }
+        .strategiya-card-text{
+            padding-bottom: 10px;
+            font-size: 16px;
+            font-weight: 400;
+            width: 200px;
+            font-family: Michroma;
+            color: #2E3038;
+        }
+        .strategiya-card-desc{
+            font-style: 14px;
+            font-weight: 300;
+            width: 470px;
+            color: #828388;
+            padding-bottom: 86px;
+        }
+        .strategiya-card-btn{
+            border-radius: 20px;
+            width: 146px;
+            border: 1px solid #CCCCCC;
+            background-color: transparent;
+            color: #184AFB;
+        }
+        .strategiya-card-span{
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            padding: 5px 40px;
+        }
+    }
+}
+
+@media (min-width:992px) {
+    .stratetiya{
+        .strategiya-wrapepr{
+            padding: 160px 0 40px;
+            display: flex;
+            align-items: start;
+            flex-direction: column;
+            justify-content: center;
+            .strategiya-title{
+                font-size: 16px;
+                font-weight: 600;
+            }
+            .strategiya-cards{
+                display: flex;
+                align-items: start;
+                flex-direction: column;
+                justify-content: center;
+                gap: 20px;
+            }
+            .strategiya-card{
+                display: flex;
+                
+                flex-direction: column;
+                border: 1px solid #CCCCCC;
+                width: 987px;
+                height: 320px;
+                border-radius: 12px;
+                padding: 40px;
+            }
+            .strategiya-card-text{
+                padding-bottom: 10px;
+                font-size: 32px;
+                font-weight: 400;
+                width: 432px;
+                font-family: Michroma;
+                color: #2E3038;
+            }
+            .strategiya-card-desc{
+                font-style: 16px;
+                font-weight: 300;
+                width: 506px;
+                color: #828388;
+                padding-bottom: 86px;
+            }
+            .strategiya-card-btn{
+                border-radius: 20px;
+                width: 146px;
+                border: 1px solid #CCCCCC;
+                background-color: transparent;
+                color: #184AFB;
+            }
+            .strategiya-card-span{
+                display: flex;
+                align-items: center;
+                gap: 20px;
+                padding: 5px 40px;
+            }
+        }
+    }
+    
+}

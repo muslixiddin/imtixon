@@ -241,8 +241,145 @@ a {
   }
 }
 .talim-hero .talim-hero-card {
-  width: 100px;
+  border-radius: 12px;
+  margin-top: 80px;
+  width: 1320px;
   height: 520px;
-  border: 1px solid #000;
-  background: #000;
+  background-color: #F5F5F5;
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 60px;
+}
+.talim-hero p.hero-title {
+  font-size: 20px;
+  font-weight: 600;
+  width: 181px;
+}
+.talim-hero .talim-hero-card_left-bottom {
+  font-family: Michroma;
+  padding-top: 40px;
+  display: flex;
+  gap: 20px;
+}
+.talim-hero .talim-hero-card_left-btn {
+  margin-top: 136px;
+  padding: 5px 50px;
+  border: none;
+  border-radius: 20px;
+  background-color: #184AFB;
+  color: #fff;
+}
+
+.stratetiya .strategiya-wrapepr {
+  padding: 160px 0 40px;
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  justify-content: center;
+}
+.stratetiya .strategiya-wrapepr .strategiya-title {
+  font-size: 16px;
+  font-weight: 600;
+}
+.stratetiya .strategiya-wrapepr .strategiya-cards {
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+.stratetiya .strategiya-wrapepr .strategiya-card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #CCCCCC;
+  width: 987px;
+  height: 320px;
+  border-radius: 12px;
+  padding: 40px;
+}
+.stratetiya .strategiya-wrapepr .strategiya-card-text {
+  padding-bottom: 10px;
+  font-size: 16px;
+  font-weight: 400;
+  width: 200px;
+  font-family: Michroma;
+  color: #2E3038;
+}
+.stratetiya .strategiya-wrapepr .strategiya-card-desc {
+  font-style: 14px;
+  font-weight: 300;
+  width: 470px;
+  color: #828388;
+  padding-bottom: 86px;
+}
+.stratetiya .strategiya-wrapepr .strategiya-card-btn {
+  border-radius: 20px;
+  width: 146px;
+  border: 1px solid #CCCCCC;
+  background-color: transparent;
+  color: #184AFB;
+}
+.stratetiya .strategiya-wrapepr .strategiya-card-span {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 5px 40px;
+}
+
+@media (min-width: 992px) {
+  .stratetiya .strategiya-wrapepr {
+    padding: 160px 0 40px;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .stratetiya .strategiya-wrapepr .strategiya-title {
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .stratetiya .strategiya-wrapepr .strategiya-cards {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+  }
+  .stratetiya .strategiya-wrapepr .strategiya-card {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #CCCCCC;
+    width: 987px;
+    height: 320px;
+    border-radius: 12px;
+    padding: 40px;
+  }
+  .stratetiya .strategiya-wrapepr .strategiya-card-text {
+    padding-bottom: 10px;
+    font-size: 32px;
+    font-weight: 400;
+    width: 432px;
+    font-family: Michroma;
+    color: #2E3038;
+  }
+  .stratetiya .strategiya-wrapepr .strategiya-card-desc {
+    font-style: 16px;
+    font-weight: 300;
+    width: 506px;
+    color: #828388;
+    padding-bottom: 86px;
+  }
+  .stratetiya .strategiya-wrapepr .strategiya-card-btn {
+    border-radius: 20px;
+    width: 146px;
+    border: 1px solid #CCCCCC;
+    background-color: transparent;
+    color: #184AFB;
+  }
+  .stratetiya .strategiya-wrapepr .strategiya-card-span {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 5px 40px;
+  }
 }

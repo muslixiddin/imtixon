@@ -1,8 +1,39 @@
 .talim-hero{
-    .talim-hero-card{
-        width: 100px;
-        height: 520px;
-        border: 1px solid #000;
-        background: #000;
+    .talim-hero-wrapper{
+        
     }
+    .talim-hero-card{
+        border-radius: 12px;
+        margin-top: 80px;
+        width: 1320px;
+        height: 520px;
+        background-color: #F5F5F5;
+        display: flex;
+        justify-content: space-between;
+        padding: 60px 60px;
+
+    }
+
+    p.hero-title{
+        font-size: 20px;
+        font-weight: 600;
+        width: 181px;
+    }
+    .talim-hero-card_left-bottom{
+        font-family: Michroma;
+        padding-top: 40px;
+        display: flex;
+        gap: 20px;
+    }
+
+    .talim-hero-card_left-btn{
+        margin-top: 136px;
+        padding: 5px 50px;
+        border: none;
+        border-radius: 20px;
+        background-color: #184AFB;
+        color: #fff;
+    }
+
+    
 }
